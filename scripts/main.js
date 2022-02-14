@@ -1,4 +1,4 @@
-// Create an array to hold all the images you want to display
+// Code By A JavaScript Beginner (Praise Codes)
 
 var images = [
     "http://127.0.0.1:5500/Images/1.jpg",
