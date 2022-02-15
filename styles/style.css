@@ -18,14 +18,14 @@ body{
 }
 
 .container {
-    height: fit-content;
+    height: 600px;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #screen{
-    height: fit-content;
+    height: 100%;
     width: 35%;
     box-shadow: 0 0 5px 2px #333;
     margin: 2% 0 0 10%;
@@ -35,7 +35,7 @@ body{
 }
 
 .images{
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 
@@ -64,4 +64,13 @@ button:hover{
 
 #prevBtn{
     margin-left: 19%;
+}
+
+@media screen and (max-width: 850px){
+    #prevBtn{
+        margin-left: 14%;
+    }
+    #screen{
+        width: 40%;
+    }
 }
