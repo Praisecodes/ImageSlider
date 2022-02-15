@@ -1,10 +1,10 @@
 // Code By A JavaScript Beginner (Praise Codes)
 
 var images = [
-    "./Images/1.jpg",
-    "./Images/2.jpg",
-    "./Images/3.jpg",
-    "./Images/4.jpeg"
+    "./Images/1.webp",
+    "./Images/2.webp",
+    "./Images/3.webp",
+    "./Images/4.webp"
 ];
 
 var chk = 0;
