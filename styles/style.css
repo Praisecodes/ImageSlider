@@ -74,3 +74,12 @@ button:hover{
         width: 40%;
     }
 }
+
+@media screen and (max-width: 750px){
+    #screen{
+        width: 50%;
+    }
+    #prevBtn{
+        margin-left: 9%;
+    }
+}
