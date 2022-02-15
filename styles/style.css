@@ -53,6 +53,7 @@ button{
     cursor: pointer;
     transition: .5s;
     margin: 32% 0 0 0;
+    z-index: 1000;
 }
 button:hover{
     background-color: #aaaaaaaa;
@@ -81,5 +82,80 @@ button:hover{
     }
     #prevBtn{
         margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 605px){
+    #Info h1{
+        font-size: 35px;
+    }
+    #prevBtn{
+        margin-left: .7%;
+    }
+    #screen{
+        width: 60%;
+    }
+    button{
+        margin: 47% 0 0 0;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #screen{
+        margin: 2% 0 0 2%;
+        width: 76%;
+    }
+    #nextBtn{
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #screen{
+        margin: 2% 0 0 0;
+    }
+    #nextBtn{
+        margin-left: 0;
+    }
+    #prevBtn{
+        margin-left: 1.7%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    #prevBtn{
+        margin-left: .7%;
+    }
+
+    #screen{
+        margin: 2% 0 0 -10%;
+        width: 97%;
+    }
+    #nextBtn{
+        margin-left: -10%;
+    }
+
+    button{
+        margin: 60% 0 0 0;
+    }
+}
+
+@media screen and (max-width: 370px){
+    #screen{
+        margin: 2% 0 0 -12%;
+        width: 100%;
+    }
+    #nextBtn{
+        margin-left: -12%;
+    }
+    button{
+        margin: 75% 0 0 0;
+    }
+}
+
+@media screen and (max-width: 350px){
+    button{
+        margin: 85% 0 0 0;
     }
 }
