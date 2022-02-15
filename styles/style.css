@@ -52,7 +52,7 @@ button{
     box-shadow: 0 0 2px 1px #333;
     cursor: pointer;
     transition: .5s;
-    margin: 22% 0 0 0;
+    margin: 32% 0 0 0;
 }
 button:hover{
     background-color: #aaaaaaaa;
